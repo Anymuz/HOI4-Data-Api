@@ -1,7 +1,7 @@
 export default function handler(req, res) {
   res.status(200).json({
-    message: 'HOI4 API Working!',
+    message: 'Hello from HOI4 API!',
     timestamp: new Date().toISOString(),
-    success: true
+    working: true
   });
 }
