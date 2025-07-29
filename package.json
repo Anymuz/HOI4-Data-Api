@@ -1,0 +1,20 @@
+{
+  "name": "hoi4-data-api",
+  "version": "1.0.0",
+  "description": "Hearts of Iron IV Strategy Data API - Serves accurate game data for strategy guide generation",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "vercel build",
+    "deploy": "vercel"
+  },
+  "dependencies": {
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["hoi4", "hearts-of-iron", "strategy", "api", "game-data"],
+  "author": "HOI4 Strategy Team",
+  "license": "MIT"
+}

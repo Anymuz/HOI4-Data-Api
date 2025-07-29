@@ -1,0 +1,1482 @@
+{
+  "meta": {
+    "description": "HOI4 Doctrines 1936 - COMPLETE RESTRUCTURED for Strategic Planning",
+    "generated_date": "2025-01-29",
+    "version": "2.0",
+    "total_doctrines": 179,
+    "structure_note": "Organized by doctrine categories with XP costs and strategic recommendations"
+  },
+  "doctrine_categories": {
+    "land_doctrines": {
+      "infrastructure_destruction": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "home_defence": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "dogfighting_experience": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "multialtitude_flying": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "logistical_bombing": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "night_bombing": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "day_bombing": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "flying_fortress": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "offensive_formations": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "mass_destruction": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "formation_flying": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "dive_bombing": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "direct_ground_support": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "formation_fighting": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "hunt_and_destroy": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "combat_unit_destruction": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "battlefield_support": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "keypoint_bombing": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "ground_support_integration": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "strategic_destruction": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "forward_interception": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "force_rotation": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "low_echelon_support": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "dispersed_fighting": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "operational_destruction": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "carousel_bombing": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "infiltration_bombing": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "high_level_bombing": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "mobile_warfare": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "delay": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "elastic_defence": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "mobile_infantry": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "mass_motorization": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "mechanised_offensive": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "armored_spearhead": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "schwerpunk": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "blitzkrieg": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "kampfgruppe": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "firebrigades": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "backhand_blow": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "modern_blitzkrieg": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "volkssturm": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "nd_conscription": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "werwolf_guerillas": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "superior_firepower": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "sup_delay": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "mobile_defence": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "intergrated_support": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "regimental_combat_teams": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "dispersed_support": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "overwhelming_firepower": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "sup_mechanized_offensive": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "concentrated_fire_plans": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "combined_arms": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "centralized_fire_control": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "forward_observers": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "advanced_firebases": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "shock_and_awe": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "trench_warfare": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "grand_battle_plan": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "prepared_defense": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "grand_assault": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "grand_mechanized_offensive": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "assault_concentration": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "branch_interoperation": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "assault_breakthrough": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "central_planning": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "c3i_theory": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "infantry_offensive": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "armored_operations": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "infiltration_assault": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "night_assault_tactics": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "attritional_containment": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "infiltration_in_depth": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "mass_assault": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "pocket_defence": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "defence_in_depth": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "large_front_operations": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "deep_operations": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "operational_concentration": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "vast_offensives": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "breakthrough_priority": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "mechanized_wave": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "continuous_offensive": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "peoples_army": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "human_infantry_offensive": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "large_front_offensive": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "human_wave_offensive": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "guerilla_warfare": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "masterful_blitz": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "subsidiary_carrier_role": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "hunter_killer_groups": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "floating_fortress": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "grand_battlefleet": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "escort_carriers": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "undersea_blockade": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "trade_interdiction": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "wolfpacks": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "combined_operations_raiding": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "raider_patrols": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "capital_ship_raiders": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "floating_fortress_ti": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "carrier_operations": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "subsidiary_carrier_role_ti": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "base_strike": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "carrier_primacy": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "carrier_task_forces": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "massed_strikes": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "floating_fortress_bs": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "carrier_battlegroups": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "undersea_blockade_bs": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "escort_patrols": {
+        "xp_cost": 100,
+        "type": "land_doctrine"
+      },
+      "special_forces_mountaineers": {
+        "xp_cost": 60,
+        "type": "land_doctrine"
+      },
+      "ski_troops": {
+        "xp_cost": 60,
+        "type": "land_doctrine"
+      },
+      "rangers": {
+        "xp_cost": 60,
+        "type": "land_doctrine"
+      },
+      "special_forces_recon": {
+        "xp_cost": 60,
+        "type": "land_doctrine"
+      },
+      "mountaineers_combat_1": {
+        "xp_cost": 60,
+        "type": "land_doctrine"
+      },
+      "mountaineers_combat_2": {
+        "xp_cost": 60,
+        "type": "land_doctrine"
+      },
+      "mountaineers_combat_3": {
+        "xp_cost": 60,
+        "type": "land_doctrine"
+      },
+      "mountaineers_keystone_1": {
+        "xp_cost": 60,
+        "type": "land_doctrine"
+      },
+      "mountaineers_keystone_2": {
+        "xp_cost": 60,
+        "type": "land_doctrine"
+      },
+      "special_forces_marines": {
+        "xp_cost": 60,
+        "type": "land_doctrine"
+      },
+      "marines_jungle_troops": {
+        "xp_cost": 60,
+        "type": "land_doctrine"
+      },
+      "marines_shore_parties": {
+        "xp_cost": 60,
+        "type": "land_doctrine"
+      },
+      "marines_recon": {
+        "xp_cost": 60,
+        "type": "land_doctrine"
+      },
+      "marines_commandoes": {
+        "xp_cost": 60,
+        "type": "land_doctrine"
+      },
+      "marines_expeditionary": {
+        "xp_cost": 60,
+        "type": "land_doctrine"
+      },
+      "marines_commandos_demolition": {
+        "xp_cost": 60,
+        "type": "land_doctrine"
+      },
+      "marines_expeditionary_blowtorch": {
+        "xp_cost": 60,
+        "type": "land_doctrine"
+      },
+      "marines_commandoes_mechanised": {
+        "xp_cost": 60,
+        "type": "land_doctrine"
+      },
+      "marines_commandoes_mechanised_non_mtg": {
+        "xp_cost": 60,
+        "type": "land_doctrine"
+      },
+      "marines_expeditionary_support": {
+        "xp_cost": 60,
+        "type": "land_doctrine"
+      },
+      "special_forces_paratroopers": {
+        "xp_cost": 60,
+        "type": "land_doctrine"
+      },
+      "paras_dispersed_drop": {
+        "xp_cost": 60,
+        "type": "land_doctrine"
+      },
+      "paras_combat_drop": {
+        "xp_cost": 60,
+        "type": "land_doctrine"
+      },
+      "paras_combat_1": {
+        "xp_cost": 60,
+        "type": "land_doctrine"
+      },
+      "paras_combat_2": {
+        "xp_cost": 60,
+        "type": "land_doctrine"
+      },
+      "paras_bonus_1": {
+        "xp_cost": 60,
+        "type": "land_doctrine"
+      },
+      "paras_bonus_2": {
+        "xp_cost": 60,
+        "type": "land_doctrine"
+      },
+      "paras_keystone_1": {
+        "xp_cost": 60,
+        "type": "land_doctrine"
+      },
+      "paras_keystone_2": {
+        "xp_cost": 60,
+        "type": "land_doctrine"
+      }
+    },
+    "air_doctrines": {
+      "air_superiority": {
+        "xp_cost": 100,
+        "type": "air_doctrine"
+      },
+      "fighter_sweeps": {
+        "xp_cost": 100,
+        "type": "air_doctrine"
+      },
+      "massed_bomber_formations": {
+        "xp_cost": 100,
+        "type": "air_doctrine"
+      },
+      "air_offense": {
+        "xp_cost": 100,
+        "type": "air_doctrine"
+      },
+      "fighter_ace_initiative": {
+        "xp_cost": 100,
+        "type": "air_doctrine"
+      },
+      "fighter_baiting": {
+        "xp_cost": 100,
+        "type": "air_doctrine"
+      },
+      "fighter_veteran_initiative": {
+        "xp_cost": 100,
+        "type": "air_doctrine"
+      },
+      "cas_veteran_initiative": {
+        "xp_cost": 100,
+        "type": "air_doctrine"
+      },
+      "air_skirmish": {
+        "xp_cost": 100,
+        "type": "air_doctrine"
+      },
+      "tactical_control": {
+        "xp_cost": 100,
+        "type": "air_doctrine"
+      },
+      "air_land_battle": {
+        "xp_cost": 100,
+        "type": "air_doctrine"
+      },
+      "floating_airfield": {
+        "xp_cost": 100,
+        "type": "air_doctrine"
+      },
+      "floating_airfield_ti": {
+        "xp_cost": 100,
+        "type": "air_doctrine"
+      },
+      "naval_air_operations": {
+        "xp_cost": 100,
+        "type": "air_doctrine"
+      },
+      "floating_airfield_bs": {
+        "xp_cost": 100,
+        "type": "air_doctrine"
+      },
+      "paras_airborne_light_armor": {
+        "xp_cost": 60,
+        "type": "air_doctrine"
+      }
+    },
+    "naval_doctrines": {
+      "naval_strike_tactics": {
+        "xp_cost": 100,
+        "type": "naval_doctrine"
+      },
+      "naval_strike_torpedo_tactics": {
+        "xp_cost": 100,
+        "type": "naval_doctrine"
+      },
+      "naval_strike_torpedo_tactics_oi": {
+        "xp_cost": 100,
+        "type": "naval_doctrine"
+      },
+      "fleet_in_being": {
+        "xp_cost": 100,
+        "type": "naval_doctrine"
+      },
+      "battlefleet_concentration": {
+        "xp_cost": 100,
+        "type": "naval_doctrine"
+      },
+      "convoy_sailing": {
+        "xp_cost": 100,
+        "type": "naval_doctrine"
+      },
+      "convoy_escorts": {
+        "xp_cost": 100,
+        "type": "naval_doctrine"
+      },
+      "integrated_convoy_defence": {
+        "xp_cost": 100,
+        "type": "naval_doctrine"
+      },
+      "submarine_operations": {
+        "xp_cost": 100,
+        "type": "naval_doctrine"
+      },
+      "convoy_interdiction": {
+        "xp_cost": 100,
+        "type": "naval_doctrine"
+      },
+      "submarine_offensive": {
+        "xp_cost": 100,
+        "type": "naval_doctrine"
+      },
+      "convoy_interdiction_ti": {
+        "xp_cost": 100,
+        "type": "naval_doctrine"
+      },
+      "unrestricted_submarine_warfare": {
+        "xp_cost": 100,
+        "type": "naval_doctrine"
+      },
+      "advanced_submarine_warfare": {
+        "xp_cost": 100,
+        "type": "naval_doctrine"
+      },
+      "battlefleet_concentration_ti": {
+        "xp_cost": 100,
+        "type": "naval_doctrine"
+      },
+      "convoy_sailing_ti": {
+        "xp_cost": 100,
+        "type": "naval_doctrine"
+      },
+      "submarine_operations_bs": {
+        "xp_cost": 100,
+        "type": "naval_doctrine"
+      },
+      "convoy_interdiction_bs": {
+        "xp_cost": 100,
+        "type": "naval_doctrine"
+      },
+      "submarine_offensive_bs": {
+        "xp_cost": 100,
+        "type": "naval_doctrine"
+      },
+      "convoy_escorts_bs": {
+        "xp_cost": 100,
+        "type": "naval_doctrine"
+      },
+      "convoy_sailing_bs": {
+        "xp_cost": 100,
+        "type": "naval_doctrine"
+      },
+      "integrated_convoy_defence_bs": {
+        "xp_cost": 100,
+        "type": "naval_doctrine"
+      }
+    }
+  },
+  "xp_costs_summary": {
+    "air_superiority": {
+      "xp_cost": 100,
+      "category": "air"
+    },
+    "infrastructure_destruction": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "home_defence": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "naval_strike_tactics": {
+      "xp_cost": 100,
+      "category": "naval"
+    },
+    "fighter_sweeps": {
+      "xp_cost": 100,
+      "category": "air"
+    },
+    "dogfighting_experience": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "multialtitude_flying": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "logistical_bombing": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "night_bombing": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "day_bombing": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "massed_bomber_formations": {
+      "xp_cost": 100,
+      "category": "air"
+    },
+    "air_offense": {
+      "xp_cost": 100,
+      "category": "air"
+    },
+    "flying_fortress": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "offensive_formations": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "mass_destruction": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "formation_flying": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "dive_bombing": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "direct_ground_support": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "formation_fighting": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "fighter_ace_initiative": {
+      "xp_cost": 100,
+      "category": "air"
+    },
+    "hunt_and_destroy": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "combat_unit_destruction": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "battlefield_support": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "keypoint_bombing": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "ground_support_integration": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "naval_strike_torpedo_tactics": {
+      "xp_cost": 100,
+      "category": "naval"
+    },
+    "strategic_destruction": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "forward_interception": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "force_rotation": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "fighter_baiting": {
+      "xp_cost": 100,
+      "category": "air"
+    },
+    "low_echelon_support": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "dispersed_fighting": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "operational_destruction": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "fighter_veteran_initiative": {
+      "xp_cost": 100,
+      "category": "air"
+    },
+    "naval_strike_torpedo_tactics_oi": {
+      "xp_cost": 100,
+      "category": "naval"
+    },
+    "cas_veteran_initiative": {
+      "xp_cost": 100,
+      "category": "air"
+    },
+    "carousel_bombing": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "infiltration_bombing": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "air_skirmish": {
+      "xp_cost": 100,
+      "category": "air"
+    },
+    "high_level_bombing": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "mobile_warfare": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "delay": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "elastic_defence": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "mobile_infantry": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "mass_motorization": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "mechanised_offensive": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "armored_spearhead": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "schwerpunk": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "blitzkrieg": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "kampfgruppe": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "firebrigades": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "backhand_blow": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "modern_blitzkrieg": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "volkssturm": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "nd_conscription": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "werwolf_guerillas": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "superior_firepower": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "sup_delay": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "mobile_defence": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "intergrated_support": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "regimental_combat_teams": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "dispersed_support": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "overwhelming_firepower": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "sup_mechanized_offensive": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "concentrated_fire_plans": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "combined_arms": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "tactical_control": {
+      "xp_cost": 100,
+      "category": "air"
+    },
+    "air_land_battle": {
+      "xp_cost": 100,
+      "category": "air"
+    },
+    "centralized_fire_control": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "forward_observers": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "advanced_firebases": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "shock_and_awe": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "trench_warfare": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "grand_battle_plan": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "prepared_defense": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "grand_assault": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "grand_mechanized_offensive": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "assault_concentration": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "branch_interoperation": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "assault_breakthrough": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "central_planning": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "c3i_theory": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "infantry_offensive": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "armored_operations": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "infiltration_assault": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "night_assault_tactics": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "attritional_containment": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "infiltration_in_depth": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "mass_assault": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "pocket_defence": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "defence_in_depth": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "large_front_operations": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "deep_operations": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "operational_concentration": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "vast_offensives": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "breakthrough_priority": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "mechanized_wave": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "continuous_offensive": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "peoples_army": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "human_infantry_offensive": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "large_front_offensive": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "human_wave_offensive": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "guerilla_warfare": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "masterful_blitz": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "fleet_in_being": {
+      "xp_cost": 100,
+      "category": "naval"
+    },
+    "battlefleet_concentration": {
+      "xp_cost": 100,
+      "category": "naval"
+    },
+    "subsidiary_carrier_role": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "hunter_killer_groups": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "floating_fortress": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "floating_airfield": {
+      "xp_cost": 100,
+      "category": "air"
+    },
+    "grand_battlefleet": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "convoy_sailing": {
+      "xp_cost": 100,
+      "category": "naval"
+    },
+    "convoy_escorts": {
+      "xp_cost": 100,
+      "category": "naval"
+    },
+    "escort_carriers": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "integrated_convoy_defence": {
+      "xp_cost": 100,
+      "category": "naval"
+    },
+    "submarine_operations": {
+      "xp_cost": 100,
+      "category": "naval"
+    },
+    "undersea_blockade": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "convoy_interdiction": {
+      "xp_cost": 100,
+      "category": "naval"
+    },
+    "submarine_offensive": {
+      "xp_cost": 100,
+      "category": "naval"
+    },
+    "trade_interdiction": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "convoy_interdiction_ti": {
+      "xp_cost": 100,
+      "category": "naval"
+    },
+    "unrestricted_submarine_warfare": {
+      "xp_cost": 100,
+      "category": "naval"
+    },
+    "wolfpacks": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "advanced_submarine_warfare": {
+      "xp_cost": 100,
+      "category": "naval"
+    },
+    "combined_operations_raiding": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "raider_patrols": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "capital_ship_raiders": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "battlefleet_concentration_ti": {
+      "xp_cost": 100,
+      "category": "naval"
+    },
+    "floating_fortress_ti": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "floating_airfield_ti": {
+      "xp_cost": 100,
+      "category": "air"
+    },
+    "carrier_operations": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "convoy_sailing_ti": {
+      "xp_cost": 100,
+      "category": "naval"
+    },
+    "subsidiary_carrier_role_ti": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "naval_air_operations": {
+      "xp_cost": 100,
+      "category": "air"
+    },
+    "base_strike": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "carrier_primacy": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "carrier_task_forces": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "floating_airfield_bs": {
+      "xp_cost": 100,
+      "category": "air"
+    },
+    "massed_strikes": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "floating_fortress_bs": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "carrier_battlegroups": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "submarine_operations_bs": {
+      "xp_cost": 100,
+      "category": "naval"
+    },
+    "undersea_blockade_bs": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "convoy_interdiction_bs": {
+      "xp_cost": 100,
+      "category": "naval"
+    },
+    "submarine_offensive_bs": {
+      "xp_cost": 100,
+      "category": "naval"
+    },
+    "convoy_escorts_bs": {
+      "xp_cost": 100,
+      "category": "naval"
+    },
+    "escort_patrols": {
+      "xp_cost": 100,
+      "category": "land"
+    },
+    "convoy_sailing_bs": {
+      "xp_cost": 100,
+      "category": "naval"
+    },
+    "integrated_convoy_defence_bs": {
+      "xp_cost": 100,
+      "category": "naval"
+    },
+    "special_forces_mountaineers": {
+      "xp_cost": 60,
+      "category": "land"
+    },
+    "ski_troops": {
+      "xp_cost": 60,
+      "category": "land"
+    },
+    "rangers": {
+      "xp_cost": 60,
+      "category": "land"
+    },
+    "special_forces_recon": {
+      "xp_cost": 60,
+      "category": "land"
+    },
+    "mountaineers_combat_1": {
+      "xp_cost": 60,
+      "category": "land"
+    },
+    "mountaineers_combat_2": {
+      "xp_cost": 60,
+      "category": "land"
+    },
+    "mountaineers_combat_3": {
+      "xp_cost": 60,
+      "category": "land"
+    },
+    "mountaineers_keystone_1": {
+      "xp_cost": 60,
+      "category": "land"
+    },
+    "mountaineers_keystone_2": {
+      "xp_cost": 60,
+      "category": "land"
+    },
+    "special_forces_marines": {
+      "xp_cost": 60,
+      "category": "land"
+    },
+    "marines_jungle_troops": {
+      "xp_cost": 60,
+      "category": "land"
+    },
+    "marines_shore_parties": {
+      "xp_cost": 60,
+      "category": "land"
+    },
+    "marines_recon": {
+      "xp_cost": 60,
+      "category": "land"
+    },
+    "marines_commandoes": {
+      "xp_cost": 60,
+      "category": "land"
+    },
+    "marines_expeditionary": {
+      "xp_cost": 60,
+      "category": "land"
+    },
+    "marines_commandos_demolition": {
+      "xp_cost": 60,
+      "category": "land"
+    },
+    "marines_expeditionary_blowtorch": {
+      "xp_cost": 60,
+      "category": "land"
+    },
+    "marines_commandoes_mechanised": {
+      "xp_cost": 60,
+      "category": "land"
+    },
+    "marines_commandoes_mechanised_non_mtg": {
+      "xp_cost": 60,
+      "category": "land"
+    },
+    "marines_expeditionary_support": {
+      "xp_cost": 60,
+      "category": "land"
+    },
+    "special_forces_paratroopers": {
+      "xp_cost": 60,
+      "category": "land"
+    },
+    "paras_dispersed_drop": {
+      "xp_cost": 60,
+      "category": "land"
+    },
+    "paras_combat_drop": {
+      "xp_cost": 60,
+      "category": "land"
+    },
+    "paras_airborne_light_armor": {
+      "xp_cost": 60,
+      "category": "air"
+    },
+    "paras_combat_1": {
+      "xp_cost": 60,
+      "category": "land"
+    },
+    "paras_combat_2": {
+      "xp_cost": 60,
+      "category": "land"
+    },
+    "paras_bonus_1": {
+      "xp_cost": 60,
+      "category": "land"
+    },
+    "paras_bonus_2": {
+      "xp_cost": 60,
+      "category": "land"
+    },
+    "paras_keystone_1": {
+      "xp_cost": 60,
+      "category": "land"
+    },
+    "paras_keystone_2": {
+      "xp_cost": 60,
+      "category": "land"
+    }
+  },
+  "strategic_recommendations": {
+    "land_doctrine_paths": {
+      "superior_firepower": {
+        "best_for": [
+          "Artillery-heavy armies",
+          "Defensive strategies",
+          "Countries with good industry"
+        ],
+        "starting_bonus": "+10% soft attack",
+        "xp_requirement": 100
+      },
+      "mobile_warfare": {
+        "best_for": [
+          "Tank-heavy armies",
+          "Blitzkrieg strategies",
+          "Countries with fuel"
+        ],
+        "starting_bonus": "+10% breakthrough",
+        "xp_requirement": 100
+      },
+      "mass_assault": {
+        "best_for": [
+          "Manpower-rich countries",
+          "Infantry-heavy armies",
+          "Soviet Union"
+        ],
+        "starting_bonus": "+5% recruitable population",
+        "xp_requirement": 100
+      }
+    }
+  }
+}
