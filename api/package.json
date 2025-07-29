@@ -1,0 +1,20 @@
+{
+  "name": "hoi4-strategy-api",
+  "version": "1.0.0",
+  "description": "HOI4 Strategy Guide Data API",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "vercel build",
+    "deploy": "vercel"
+  },
+  "dependencies": {
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "vercel": "^33.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
