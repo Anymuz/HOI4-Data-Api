@@ -31,7 +31,7 @@ function loadKnowledgeBase() {
     }
     
     console.log('Using knowledge base path:', kbPath);
-    
+
     try {
       knowledgeBase.start_status = JSON.parse(fs.readFileSync(path.join(kbPath, 'start_status_1936.json'), 'utf8'));
       knowledgeBase.military_oob = JSON.parse(fs.readFileSync(path.join(kbPath, 'military_oob_1936.json'), 'utf8'));
@@ -45,7 +45,7 @@ function loadKnowledgeBase() {
   return knowledgeBase;
 }
 
-module.exports = async (req, res) => {
+export default function handler(req, res) {
   // Enable CORS
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
@@ -102,4 +102,4 @@ module.exports = async (req, res) => {
     console.error('Error processing request:', error);
     res.status(500).json({ error: 'Internal server error' });
   }
-};
+}
