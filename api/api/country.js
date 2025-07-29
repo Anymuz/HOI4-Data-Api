@@ -6,7 +6,7 @@ let knowledgeBase = {};
 
 function loadKnowledgeBase() {
   if (Object.keys(knowledgeBase).length === 0) {
-    const kbPath = path.join(process.cwd(), 'GPT', 'knowledge_base');
+    const kbPath = path.join(process.cwd(), 'data', 'knowledge_base');
     
     try {
       knowledgeBase.start_status = JSON.parse(fs.readFileSync(path.join(kbPath, 'start_status_1936.json'), 'utf8'));

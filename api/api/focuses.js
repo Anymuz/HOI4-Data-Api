@@ -5,7 +5,7 @@ let focusData = null;
 
 function loadFocusData() {
   if (!focusData) {
-    const kbPath = path.join(process.cwd(), 'GPT', 'knowledge_base');
+    const kbPath = path.join(process.cwd(), 'data', 'knowledge_base');
     try {
       focusData = JSON.parse(fs.readFileSync(path.join(kbPath, 'focus_trees.json'), 'utf8'));
     } catch (error) {
