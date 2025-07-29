@@ -6,14 +6,14 @@ let knowledgeBase = {};
 
 function loadKnowledgeBase() {
   if (Object.keys(knowledgeBase).length === 0) {
-    const dataPath = path.join(process.cwd(), 'data');
+    const kbPath = path.join(process.cwd(), 'GPT', 'knowledge_base');
     
     try {
-      knowledgeBase.start_status = JSON.parse(fs.readFileSync(path.join(dataPath, 'start_status_1936.json'), 'utf8'));
-      knowledgeBase.military_oob = JSON.parse(fs.readFileSync(path.join(dataPath, 'military_oob_1936.json'), 'utf8'));
-      knowledgeBase.focus_trees = JSON.parse(fs.readFileSync(path.join(dataPath, 'focus_trees.json'), 'utf8'));
-      knowledgeBase.states = JSON.parse(fs.readFileSync(path.join(dataPath, 'states_1936.json'), 'utf8'));
-      knowledgeBase.characters = JSON.parse(fs.readFileSync(path.join(dataPath, 'characters_1936.json'), 'utf8'));
+      knowledgeBase.start_status = JSON.parse(fs.readFileSync(path.join(kbPath, 'start_status_1936.json'), 'utf8'));
+      knowledgeBase.military_oob = JSON.parse(fs.readFileSync(path.join(kbPath, 'military_oob_1936.json'), 'utf8'));
+      knowledgeBase.focus_trees = JSON.parse(fs.readFileSync(path.join(kbPath, 'focus_trees.json'), 'utf8'));
+      knowledgeBase.states = JSON.parse(fs.readFileSync(path.join(kbPath, 'states_1936.json'), 'utf8'));
+      knowledgeBase.characters = JSON.parse(fs.readFileSync(path.join(kbPath, 'characters_1936.json'), 'utf8'));
     } catch (error) {
       console.error('Failed to load knowledge base:', error);
     }

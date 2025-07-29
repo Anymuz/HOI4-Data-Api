@@ -5,10 +5,10 @@ let knowledgeBase = {};
 
 function loadKnowledgeBase() {
   if (Object.keys(knowledgeBase).length === 0) {
-    const dataPath = path.join(process.cwd(), 'data');
+    const kbPath = path.join(process.cwd(), 'GPT', 'knowledge_base');
     
     try {
-      knowledgeBase.military_oob = JSON.parse(fs.readFileSync(path.join(dataPath, 'military_oob_1936.json'), 'utf8'));
+      knowledgeBase.military_oob = JSON.parse(fs.readFileSync(path.join(kbPath, 'military_oob_1936.json'), 'utf8'));
     } catch (error) {
       console.error('Failed to load military data:', error);
     }
