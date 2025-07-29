@@ -6,7 +6,31 @@ let knowledgeBase = {};
 
 function loadKnowledgeBase() {
   if (Object.keys(knowledgeBase).length === 0) {
-    const kbPath = path.join(process.cwd(), 'data', 'knowledge_base');
+    // Try multiple possible paths for Vercel deployment
+    const possiblePaths = [
+      path.join(process.cwd(), 'data', 'knowledge_base'),
+      path.join(__dirname, '..', 'data', 'knowledge_base'),
+      path.join('/var/task', 'data', 'knowledge_base')
+    ];
+    
+    let kbPath = null;
+    for (const testPath of possiblePaths) {
+      try {
+        if (fs.existsSync(testPath)) {
+          kbPath = testPath;
+          break;
+        }
+      } catch (e) {
+        continue;
+      }
+    }
+    
+    if (!kbPath) {
+      console.error('Could not find knowledge base directory');
+      return {};
+    }
+    
+    console.log('Using knowledge base path:', kbPath);
     
     try {
       knowledgeBase.start_status = JSON.parse(fs.readFileSync(path.join(kbPath, 'start_status_1936.json'), 'utf8'));
